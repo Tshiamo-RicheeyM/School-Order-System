@@ -1,0 +1,33 @@
+/* Home Page Specific Styles */
+.hero {
+    margin-top: 80px;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    animation: slideIn 1s;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.hero-image img {
+    width: 100%;
+    transition: transform 0.5s;
+}
+
+.hero-image img:hover {
+    transform: scale(1.05);
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
