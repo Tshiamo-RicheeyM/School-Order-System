@@ -11,9 +11,6 @@
     z-index: 1000;
 }
 
-body {
-    background: #f9f9f9;
-}
 
 .logo {
     color: rgb(0, 0, 0);
@@ -45,7 +42,7 @@ body {
 }
 
 .menu-item {
-    background: white;
+    background: rgba(73, 18, 136, 0.253);
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
